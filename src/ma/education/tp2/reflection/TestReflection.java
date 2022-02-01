@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
 public class TestReflection {
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, ClassNotFoundException {
 		
-		ResourceBundle rb = ResourceBundle.getBundle("ma.education.ma.education.tp2.reflection.param");
+		ResourceBundle rb = ResourceBundle.getBundle("ma.education.tp2.reflection.param");
 		String value = rb.getString("key1");
 		Class<?> c = Class.forName(value);
 		Constructor<?>[] cons= c.getDeclaredConstructors();

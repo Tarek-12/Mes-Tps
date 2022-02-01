@@ -6,16 +6,16 @@ public class Salle {
 	protected String nom;
 	//Constructors
 	private Salle() {
-		System.out.println("o1 instanci�");
+		System.out.println("o1 instancie");
 	}
 	private Salle(String nom) { 
 		this.nom = nom; 
-		System.out.println("o2 instanci�");
+		System.out.println("o2 instancie");
 	}
 	private Salle(long id, String nom) { 
 		this.id = id;
 		this.nom = nom;
-		System.out.println("o3 instanci�");
+		System.out.println("o3 instancie");
 	}
 	//Methods
 	public void afficher() {}
